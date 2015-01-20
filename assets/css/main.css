@@ -1,0 +1,274 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Josefin Sans', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+.cover{
+	width: 100%;
+	background-image: url("../img/apple.jpg");
+	background-size: cover;
+	background-position:0% 75%;
+	background-repeat: no-repeat;
+	color: white;
+}
+.nav{
+	width: 100%;
+	background: black;
+	height: 60px;
+	background: rgba(0,0,0,0.6);
+}
+.nav ul{
+	height: 100%;
+}
+.nav li{
+	list-style-type: none;
+	display: inline;
+	float: right;
+	height: 100%;
+	width: 150px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 60px;
+	color:white;
+	transition:0.5s;
+	cursor: pointer; 
+	cursor: hand;
+}
+.nav li:hover{
+	background: white;
+	color:black;
+	transition:1s;
+}
+.title{
+	width:100%;
+	text-align: center;
+	font-weight:100;
+	font-size: 75px;
+	margin-top:190px;
+	text-shadow:1px 1px 1px black;
+}
+.info{
+	width: 100%;
+	margin-top:190px;
+	height: 260px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: rgba(0,0,0,0.6);
+	text-align: center;
+	font-size:25px;
+}
+.info-container{
+	width: 1000px;
+	margin: 0 auto;
+}
+.contact-container{
+	width:75%;
+	height: 75px;
+	margin: 0 auto;
+	margin-top: 2.5%;
+	font-size: 1.5rem;
+}
+.contact{
+	width: 250px;
+	height: 100%;
+	border: 1px solid white;
+	vertical-align: middle;
+	line-height:75px;
+	cursor: pointer;
+	cursor: hand;
+}
+#contact-freese{
+	margin-left:15%;
+	float:left;
+}
+#contact-cao{
+	margin-right:15%;
+	float:right;
+}
+.schedule-header{
+	width: 100%;
+	background: black;
+	color:white;
+	padding: 40px 0px 25px 0px;
+}
+.circle{
+	font-size: 40px;
+	line-height: 150px;
+	width:150px;
+	height: 150px;
+	text-align: center;
+	border:4px solid white;
+	border-radius: 50%;
+	border-spacing: 0px;
+	margin: 0 auto;
+}
+.arrow{
+	width: 80px;
+	height: 80px;
+	margin: 0 auto;
+	cursor: hand;
+	cursor: pointer;
+}
+.arrow img{
+	width: 100%;
+	height: 100%;
+}
+.content-wrapper{
+	width: 100%;
+	background-image: url("../img/content.jpg");
+	background-size: cover;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.content{
+	padding: 25px 50px 5px 60px;
+	background-color: Ivory;
+	width: 50%;
+	margin: 0 auto;
+	-moz-box-shadow: 0px 0px 16px #000000;
+	-webkit-box-shadow: 0px 0px 16px #000000;
+	box-shadow: 0px 0px 16px #000000;
+	font-size: 18px;
+}
+.announcements{
+	
+}
+.content li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.schedule{
+	margin-top: 50px;
+}
+table{
+	margin:0 auto;
+	margin-top: 25px;
+	border-spacing: 10px;
+}
+td{
+	padding:12.5px;
+	font-size: 22.5px;
+	background: Ivory;
+	font-weight: 600;
+}
+.footer{
+	background: black;
+	width: 100%;
+	height: 150px;
+}
+@media (max-width: 1200px){
+	.cover{
+		height: 600px;
+	}
+	.nav{
+		height: 50px;
+	}
+	.nav li{
+		width: 120px;
+		font-size: 18px;
+		line-height: 50px;
+	}
+	.title{
+		font-size: 45px;
+		margin-top:140px;
+	}
+	.info{
+		margin-top:140px;
+		height: 225px;
+		padding-top: 30px;
+		font-size:20px;
+	}
+	.container{
+		width: 675px;
+		margin: 0 auto;
+	}
+	.contactContainer{
+		width:75%;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 2.5%;
+		font-size: 1.1rem;
+	}
+	.contact{
+		width: 175px;
+		height: 100%;
+		border: 1px solid white;
+		vertical-align: middle;
+		line-height:40px;
+	}
+	#contact1{
+		margin-left:15%;
+		float:left;
+	}
+	#contact2{
+		margin-right:15%;
+		float:right;
+	}
+	.main div{
+		width:75%;
+	}
+@media (max-width: 800px){
+	.cover{
+		height: 525px;
+	}
+	.nav{
+		height: 40px;
+	}
+	.nav li{
+		width: 100px;
+		font-size: 16px;
+		line-height: 40px;
+	}
+	.title{
+		font-size: 37.5px;
+		margin-top:100px;
+	}
+	.info{
+		margin-top:100px;
+		height: 225px;
+		padding-top: 15px;
+		font-size:18px;
+	}
+	.container{
+		width: 540px;
+		margin: 0 auto;
+	}
+	.contactContainer{
+		width:75%;
+		height: 40px;
+		margin: 0 auto;
+		margin-top: 5%;
+		font-size: 1rem;
+	}
+	.contact{
+		width: 125px;
+		height: 100%;
+		border: 0px solid white;
+		vertical-align: middle;
+		line-height:40px;
+	}
+	#contact1{
+		margin-left:15%;
+		float:left;
+	}
+	#contact2{
+		margin-right:15%;
+		float:right;
+	}
+	.main div{
+		width:75%;
+	}
+	table{
+		margin-top: 20px;
+		border-spacing: 7.5px;
+	}
+	td{
+		padding:10px;
+		font-size: 18px;
+		background: Ivory;
+		font-weight: 600;
+	}
+}
